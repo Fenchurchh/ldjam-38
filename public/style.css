@@ -1,0 +1,49 @@
+body,html{
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+
+canvas{
+	position:absolute;
+}
+canvas, img {
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.auth{
+	z-index: 9001;
+	position: relative;
+	margin:auto;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background: #efefef;
+	top: 0;
+}
+
+.hud{
+}
+
+.hud > div{
+	position:absolute;
+	margin-top: -38px;
+	text-align: center;
+	padding: 3px 9px;
+	background: rgba(0,0,0,0.7);
+	border-radius: 9px;
+	color: white;
+	font-size: 12px;
+	text-transform: uppercase;
+
+}
+
+
+.hud > div:empty{
+	display:none;
+}

@@ -1,0 +1,60 @@
+{
+  "sourceType": "modules",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "plugins": [],
+  "globals": {
+    "__DEV__": true,
+    "game": true,
+    "angular": true,
+    "io": true,
+    "PIXI": true,
+    "Stats": true
+  },
+  "rules": {
+    "react/jsx-quotes": 0,
+    "jsx-quotes": [
+      2,
+      "prefer-double"
+    ],
+    "indent": 0,
+    "comma-dangle": [
+      0,
+      "never"
+    ],
+    "semi": 0,
+    "space-in-parens": 0,
+    "object-curly-spacing": 0,
+    "no-var": 0,
+    "no-undef": 1,
+    "no-unused-var": 0,
+    "no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": false
+      }
+    ],
+    "prefer-const": 0,
+    "vars-on-top": 0,
+    "object-shorthand": 0,
+    "prefer-arrow-callback": 1,
+    "no-trailing-spaces": 0,
+    "keyword-spacing": 0,
+    "new-cap": 0,
+    "prefer-template": 0,
+    "spaced-comment": 0,
+    "max-len": 0,
+    "no-param-reassign": 0,
+    "padded-blocks": 0,
+    "quotes": 0,
+    "func-names": 0,
+    "space-before-function-paren": [
+      0
+    ]
+  }
+}
